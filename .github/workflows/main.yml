@@ -5,9 +5,9 @@ on:
   push:
     branches:
       - lab3
-  workflow_dispatch:
-    
-            
+<<<<<<< HEAD
+  workflow_dispatch:  
+
 jobs:
   build:
     runs-on: windows-latest
@@ -26,4 +26,5 @@ jobs:
           wmic memorychip get capacity,manufacturer,partnumber,speed
 
       - name: Run a simple script
+<<<<<<< HEAD
         run: echo "Hello, GitHub Actions!"
